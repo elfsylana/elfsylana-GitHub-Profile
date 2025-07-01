@@ -1,3 +1,7 @@
 function sayHi() {
-  alert("Yoo! gw ajil — Coba klik tulisan ``kontak whatsapp`` ");
+  alert("Yoo! eh btw gw ganti nomor barang kali minat klik aj ''Kontak Whatsapp'' — Sengkuu ");
+}
+
+function toggleDarkMode() {
+  document.body.classList.toggle("dark-mode");
 }
