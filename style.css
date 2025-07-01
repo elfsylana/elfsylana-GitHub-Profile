@@ -62,11 +62,19 @@ body {
   }
 
   .left-column, .right-column {
+    width: 100%;
     text-align: center;
   }
 
-  .description {
-    text-align: left;
+ .description pre {
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+ }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
   }
 }
 
